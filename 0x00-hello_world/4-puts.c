@@ -1,6 +1,6 @@
 #include <studio.h>
 /**
- * main - Entry point
+ * main - entry point
  *
  * Return: 0 after printing the function
  */
