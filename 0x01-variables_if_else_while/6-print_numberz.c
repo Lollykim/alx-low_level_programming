@@ -7,9 +7,9 @@
 int main(void)
 
 {
-int d;
+int d = 48;
 
-for (d = 48 ; < = 57 ; d++)
+for (d <= 57 ; d++;)
 {
 putchar (d);
 }
