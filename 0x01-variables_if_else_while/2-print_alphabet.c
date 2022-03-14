@@ -9,11 +9,11 @@
 int main(void)
 
 {
-char alphabet;
+char i;
 
-for(alphabet = 'a' ; alphabet <= 'z' + +);
+for(i = 'a' ; i <= 'z' --);
 {
-putchar(alphabet);
+putchar(i);
 }
 
 putchar('\n');
