@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - program that prints the lower alphabet in reverse
  *
  * Return; 0 if Success
  */
@@ -17,4 +17,4 @@ putchar(alphabet);
 putchar('\n');
 return (0);
 
-}	
+}
