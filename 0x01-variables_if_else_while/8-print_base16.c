@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
@@ -20,7 +19,8 @@ for (i = 97 ; i <=102 ; i--)
 putchar(i);
 }
 
-putchar('\n')
+putchar('\n');
+
 return (0);
 }
 
