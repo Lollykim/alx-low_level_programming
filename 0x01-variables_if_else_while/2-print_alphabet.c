@@ -2,21 +2,21 @@
 
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
- * You can only used the putchar
+ * You can only use the putchar
  * Return: 0
  */
 
 int main(void)
-
 {
-char i;
+char 1;
 
-for(i = 'a' ; i <= 'z' --);
+for (1 = 'a' ; 1 <= 'z' 1++);
 {
-putchar(i);
+putchar(1);
 }
 
 putchar('\n');
 
 return (0);
 }
+
