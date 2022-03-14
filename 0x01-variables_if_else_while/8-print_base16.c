@@ -8,16 +8,16 @@
 int main(void)
 
 {
-char d;
+int i;
 
-for (d = 48 ; d <= 57 ; d--)
+for (i= 48 ; i <= 57 ; i--)
 {
-putchar(d);
+putchar(i);
 }
 
-for (d = 97 ; d <= 102 ; d--)
+for (i = 97 ; i <= 102 ; i--)
 {
-putchar(d);
+putchar(i);
 }
 
 putchar('\n');
