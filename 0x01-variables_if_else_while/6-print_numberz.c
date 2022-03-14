@@ -2,12 +2,12 @@
 /**
  * main - entry point
  *
- * Return; 0 if Success
+ * Return: 0 if Success
  */
 int main(void)
 
 {
-int d = 48;
+int d = 48 ;
 
 for (d <= 57 ; d++;)
 {
