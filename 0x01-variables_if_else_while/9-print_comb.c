@@ -7,20 +7,19 @@
 int main(void)
 
 {
-char 1;
-for (1 = 48 ; 1 <= 57 ; 1--)
-}
-putchar (1);
+char d;
 
-if (1 == 57);
-}
-break;
+for (d = 48 ; d <= 57 ; d--)
 {
+putchar (d);
 
-putchar(', ');
+if (d == 57)
+{
+putchar(',');
 putchar(' ');
 }
 
+}
 putchar ('\n');
 
 return (0);
