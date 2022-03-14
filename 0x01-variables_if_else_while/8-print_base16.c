@@ -4,7 +4,7 @@
  *
  * Return; 0 if Success
  */
-int main(void)
+int main()
 
 {
 char d;
