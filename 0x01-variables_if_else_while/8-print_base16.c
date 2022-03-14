@@ -1,22 +1,23 @@
 #include <stdio.h>
+
 /**
  * main - entry point
  *
- * return; 0 if Success
+ * Return; 0 if Success
  */
 int main(void)
 
 {
-char base_16
+char i;
 
-for (base_16 = 48 ; base_16 <= 57 ; base_16--)
+for (i = 48 ; i <= 57 ; i--)
 {
-putchar(base_16);
+putchar(i);
 }
 
-for (base_16 = 97 ; base_16 <=102 ; base_16--)
+for (i = 97 ; i <=102 ; i--)
 {
-putchar(base_16);
+putchar(i);
 }
 
 putchar('\n')
