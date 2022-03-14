@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- *
+ * main - print numbers between 0 to 9 and letters between a to f
+ * using only putchart function
  * Return; 0 if Success
  */
 int main(void)
