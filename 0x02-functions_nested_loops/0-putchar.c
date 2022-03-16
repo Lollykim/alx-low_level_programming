@@ -1,11 +1,10 @@
 #include "main.h"
 
-
- /**
-  * main - enty point
-  *
-  * Return: 0 for success
-  */
+/**
+ * main - enty point
+ *
+ * Return: 0 for success
+ */
 
 int main(void)
 {
