@@ -1,4 +1,4 @@
-#including "main.h"
+#include "main.h"
 
 /**
  * times_table - prints times table up to 9
@@ -24,7 +24,6 @@ if (x != 0)
 _putchar(',');
 
 _putchar(' ');
-
 }
 if (prod >= 10)
 
@@ -46,6 +45,7 @@ else
 
 _putchar((prod % 10) + '0');
 }
-_putchar('\n')
+_putchar('\n');
 }
 }
+
