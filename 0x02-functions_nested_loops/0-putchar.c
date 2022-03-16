@@ -1,10 +1,10 @@
 #include "main.h"
 
 
- /**  
+ /**
   * main - enty point
   *
-  * Return: nothing, return void
+  * Return: 0 for success
   */
 
 int main(void)
