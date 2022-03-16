@@ -1,7 +1,24 @@
- @@ -1,5 +1,4 @@
-- #include "0-putchar.c"
--
-+ #include <unistd.h>
+#include "main.h"
 
- /**
-  * _putchar - write the character c to stdout
+
+ /**  
+  * main - enty point
+  *
+  * Return: nothing, return void
+  */
+
+int main(void)
+{
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
+return (0);
+}
+
