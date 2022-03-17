@@ -1,9 +1,13 @@
 #include "main.h"
+
+
 /**
- * _isdigit - if is a digit
- *@c: print int
- * Return: Always 0
- */
+ * _isdigit - if is a digit 0-9
+ *
+ *@c: int to be checked
+ *
+ * Return: 1 if c is a digit, otherwise 0
+ **/
 
 int _isdigit(int c)
 {
@@ -17,3 +21,4 @@ else
 return (0);
 }
 }
+
