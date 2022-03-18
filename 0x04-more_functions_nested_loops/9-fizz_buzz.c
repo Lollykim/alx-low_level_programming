@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - entry
  *
@@ -38,6 +39,7 @@ i++;
 
 
 }
-printf("\n"):
+printf("\n");
 return (0);
 }
+
