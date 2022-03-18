@@ -2,7 +2,7 @@
 
 
 /**
- * _isdigit - if is a digit 0-9
+ * _isdigit - if is a digit
  *
  * @c: int to be checked
  *
@@ -12,8 +12,7 @@
 int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
-retun (1);
+return (1);
 else
 return (0);
 }
-
