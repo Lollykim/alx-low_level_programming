@@ -12,7 +12,7 @@ char *start_c, *end_c, c;
 int i, count;
 int length = 0;
 
-for (i = 0; S[i]; i++)
+for (i = 0; s[i]; i++)
 {
 length++;
 }
@@ -27,6 +27,10 @@ for (i = 0; i < count - 1; i++)
 {
 end_c++;
 }
+
+
+for (i =0; i < count / 2; i++)
+{
 
 
 c = *end_c;
