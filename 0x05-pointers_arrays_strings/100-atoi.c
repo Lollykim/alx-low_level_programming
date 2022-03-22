@@ -20,7 +20,7 @@ int _atoi(char *s)
 unsigned int number, i;
 int sign;
 
-sign = 1
+sign = 1;
 number = 0;
 
 
