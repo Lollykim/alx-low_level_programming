@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * re_string - prints a reverse string
+ * rev_string - prints a reverse string
  * @s: A pointer to an int that will be changed
  *
  * Return: void
