@@ -2,18 +2,18 @@
 
 /**
  * is_numerical - check if it is a digit
- * @n: number
- * REturn: if it is a number, return 1 else return 0
+ * @n: Number
+ * REturn: If it is a number, return 1 else return 0
  */
-int is_numerical(unsigned int n)
+int is_numerical(unsigned int number)
 {
-return (n >= '0' && n <= '9');
+return (number >= '0' && number <= '9');
 }
 
 /**
  * _atoi - convert a string to an integer
  * @s: string
- * Return: Return the number
+ * Return: Return the num
  */
 int _atoi(char *s)
 {
