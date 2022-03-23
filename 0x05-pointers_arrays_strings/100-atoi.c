@@ -3,11 +3,11 @@
 /**
  * is_numerical - check if it is a digit
  * @n: Number
- * REturn: If it is a number, return 1 else return 0
+ * Return: If it is a number, return 1 else return 0
  */
-int is_numerical(unsigned int number)
+int is_numerical(unsigned int n)
 {
-return (number >= '0' && number <= '9');
+return (n >= '0' && n <= '9');
 }
 
 /**
