@@ -6,11 +6,17 @@
  */
 int main(void)
 {
-int num;
+int myrand;
+int count;
+int total;
 
-srand(time(0));
-num = rand();
-printf("%i\n", num);
+srand(time(NULL));
+for (count = 0, total = 2772; total > 122; count++)
+{
+myrand = (rand() % 125) + 1;
+printf("%c", myrand);
+total -= myrand;
+}
+printf("%c", total);
 return (0);
 }
-
