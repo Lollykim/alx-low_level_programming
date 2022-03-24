@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * _strcpy -copies a string
  * @dest: A pointer to a character that will be changed
