@@ -26,7 +26,8 @@ j++;
 
 {
 *dest = src[j];
-dest++;
+j++;
+i++;
 }
 
 *dest = '\0';
