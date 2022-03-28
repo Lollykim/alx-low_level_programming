@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memcpy - copies number bytes form address "from" to address "to"
+ * _memcpy - copies memory area
  * @dest: content is to be copied
  * @src: source of data to be copied
  * @n: bytes of the memory
@@ -18,7 +18,7 @@ while (i < n) /*Declaring WHILE*/
 *(dest + i) = *(src + i); /*add 1 position dest and src*/
 i++;
 
-} /*END WHILE/
+} /*END WHILE*/
 
 
 return (dest);
