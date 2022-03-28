@@ -3,7 +3,7 @@
 /**
  * _strpbrk - matches any character specified
  * @s: This is the c string to be scanned
- * @accept: character in the str1 that matches one one of the characters in str2
+ * @accept:character in the str1 that matches one one of the characters in str2
  * Return: string s that matches any character specifield in accept
  **/
 
