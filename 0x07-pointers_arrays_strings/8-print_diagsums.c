@@ -15,7 +15,7 @@ int i;
 int sum1, sum2;
 
 sum1 = 0;
-sunm2 = 0;
+sum2 = 0;
 
 i = 0;
 while (i < size) /*number repetition*/
@@ -27,6 +27,6 @@ sum2 = sum2 + *(a + i * size + size - i - 1);
 i++; /*add +1*/
 }
 
-printf("i, i\n", sum1, sum2);
+printf("%i, %i\n", sum1, sum2);
 
 }
