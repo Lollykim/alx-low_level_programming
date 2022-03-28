@@ -24,7 +24,7 @@ return (s);
 j++; /*add j+1*/
 }
 
-s++; /*add s+2*/
+s++; /*add s+1*/
 }
 return (0);
 
