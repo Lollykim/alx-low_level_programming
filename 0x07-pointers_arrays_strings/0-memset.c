@@ -19,5 +19,5 @@ for (i = 0; i < n; i ++)
 
 } /*EBD FOR*/
 
-	return (s);
+return (s);
 }
