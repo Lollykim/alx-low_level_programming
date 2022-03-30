@@ -43,7 +43,7 @@ return (0);
  * Return: true or false if the sting is palindrome
  */
 
-int fakefake(char *s, cha *ss, int cont)
+int fakefake(char *s, char *ss, int cont)
 {
 if (*s == *ss && cont >= 0)
 return (fakefake(s + 1, ss - 1, cont - 1));
