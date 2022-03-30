@@ -5,7 +5,7 @@
  * Return: factorial
  */
 
-int factorial(int n)
+int _factorial(int n)
 {
 if (n == 0) /*Base condition*/
 
