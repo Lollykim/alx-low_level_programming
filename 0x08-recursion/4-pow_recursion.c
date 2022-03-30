@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _pow_ecursion - retuns the value of x raised to the power of y
+ * _pow_recursion - retuns the value of x raised to the power of y
  * @x: integer
  * @y: integer
- * Return: pow ecursion
+ * Return: pow recursion
  */
 
 int _pow_recursion(int x, int y)
