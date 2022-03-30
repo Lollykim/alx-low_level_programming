@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _factoial - factorial of a gien number
+ * _factoial - factorial of a given number
  * @n: pointers block of memory to fill
  * Return: factorial
  */
 
-int _factorial(int n)
+int factorial(int n)
 {
 if (n == 0) /*Base condition*/
 
