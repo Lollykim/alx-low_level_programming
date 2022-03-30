@@ -49,7 +49,7 @@ if (*s == *ss && cont >= 0)
 return (fakefake(s + 1, ss - 1, cont - 1));
 
 else if (cont < 0)
-retun (1);
+return (1);
 
 else
 return (0);
