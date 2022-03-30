@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * factoial - factorial of a gien number
+ * _factoial - factorial of a gien number
  * @n: pointers block of memory to fill
  * Return: factorial
  */
