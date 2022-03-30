@@ -19,7 +19,7 @@ return (1);
 
 else
 {
-pow = (x * pow_recursion(x, y -1)); /*Recursive call*/
+pow = (x * _pow_recursion(x, y -1)); /*Recursive call*/
 return (pow);
 }
 
