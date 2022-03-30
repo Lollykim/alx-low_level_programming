@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _evaluate - evaluate functionsqrt
+ * _evaluate - evaluate function sqrt
  * @i: integer
  * @n: integer
  * Return: evaluate sqrt
@@ -9,7 +9,7 @@
 int _evaluate(int i, int n)
 {
 /*evaluate function*/
-if (n == 0 || n ==1)
+if (n == 0 || n == 1)
 return (n);
 
 else if (i * i < n)
