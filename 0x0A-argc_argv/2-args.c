@@ -20,7 +20,7 @@ if (argc > 0)
 /*WHILE - print each arguments*/
 while (count < argc)
 {
-printff("%s\n", argv[count]);
+printf("%s\n", argv[count]);
 count++;
 }
 }
