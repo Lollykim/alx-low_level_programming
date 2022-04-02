@@ -53,7 +53,7 @@ while (count < argc) /*Goeas through the whole arrya*/
 if(check_num(argv[count]))
 
 {
-str_to_int = atoi(argv[count])); /*ATOI --> convert string to int*/
+str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
 sum += str_to_int;
 }
 
@@ -61,7 +61,7 @@ sum += str_to_int;
 else
 {
 printf("Error\n");
-e\return (1);
+return (1);
 }
 
 count++;
