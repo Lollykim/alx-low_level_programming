@@ -27,12 +27,12 @@ total = atoi(argv[1]); /*Convert str to int*/
 if (total <= 0)
 {
 printf("0\n");
-return (0):
+return (0);
 }
 
 /*Declaring while*/
 
-while (coins[positions] != '\0')
+while (coins[position] != '\0')
 
 {
 if (total >= coins[position])
