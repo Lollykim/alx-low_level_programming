@@ -32,10 +32,10 @@ return (1);
 
 /**
  * main - print the name of the program
- * @argc: count arguments
+ * @argc: count argument
  * @argv: Arguments
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(int argc, char *argv[])
