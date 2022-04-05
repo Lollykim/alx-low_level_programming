@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlem - count array
+ * _strlen - count array
  * @s: array of elements
  * Return: 1
  */
