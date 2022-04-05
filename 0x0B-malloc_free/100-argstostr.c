@@ -25,15 +25,15 @@ a++;
 }
 count = count + ac + 1;
 str = malloc(sizeof(char) * count);
-if(str == NULL)
+if (str == NULL)
 {
-return (NULL)	;
+return (NULL);
 }
 for (a = 0; a < ac; a++)
 {
 for (b = 0; av[a][b] != '\0'; b++)
 {
-str[c] = av[a][b];	
+str[c] = av[a][b];
 c++;
 }
 str[c] = '\n';
