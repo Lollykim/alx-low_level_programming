@@ -9,23 +9,23 @@ char **strtow(char *str)
 {
 char **ptr;
 int i, k, len, start, end, j = 0;
-int words = count_words(str);
+int words =  countWords(str);
 
-if (!str || !count_words(str))
+if (!str || !countWords(str))
 return (NULL);
 ptr = malloc(sizeof(char *) * (words + 1));
 if (!ptr)
 return (NULL);
 for (i = 0; i < words; i++)
 {
-start = start_index(str, j);
-end =end_index(str, start);
+start = startIndex(str, j);
+end = endIndex(str, start);
 len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
 {
 i -= 1;
-while (i>= 0)
+while (i >= 0)
 {
 free(ptr[i]);
 i--;
@@ -74,7 +74,7 @@ return (index);
  */
 int endIndex(char *s, int index)
 {
-while (!isSpace(*(s * index)))
+while (!isSpace(*(s + index)))
 index++;
 return (index);
 }
@@ -92,7 +92,7 @@ int words = 0;
 while (*s)
 {
 if (isSpace(*s) && wordOn)
-woedOn = 0;
+wordOn = 0;
 else if (!isSpace(*s) && !wordOn)
 {
 wordOn = 1;
