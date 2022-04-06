@@ -18,8 +18,8 @@ if (!ptr)
 return (NULL);
 for (i = 0; i < words; i++)
 {
-start = start_index(str, j);
-end = end_index(str, start);
+start = *start_index(str, j);
+end = *end_index(str, start);
 len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
