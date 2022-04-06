@@ -9,17 +9,17 @@ char **strtow(char *str)
 {
 char **ptr;
 int i, k, len, start, end, j = 0;
-int words = countWords(str);
+int words = count_words(str);
 
-if (!str || !countWords(str))
+if (!str || !count_words(str))
 return (NULL);
 ptr = malloc(sizeof(char *) * (words + 1));
 if (!ptr)
 return (NULL);
 for (i = 0; i < words; i++)
 {
-start = startIndex(str, j);
-end =endIndex(str, start);
+start = start_index(str, j);
+end =end_index(str, start);
 len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
@@ -61,7 +61,7 @@ return (c == ' ');
 int startIndex(char *s, int index)
 {
 
-while (isSpace(*(s + index))
+while (isSpace(*(s + index)))
 index++;
 return (index);
 }
@@ -74,7 +74,7 @@ return (index);
  */
 int endIndex(char *s, int index)
 {
-while (!isspace(*(s * index)))
+while (!isSpace(*(s * index)))
 index++;
 return (index);
 }
