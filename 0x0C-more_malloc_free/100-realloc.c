@@ -7,7 +7,7 @@
  * @new_size: new size
  * Return: pointer
  */
-void *_realloc(void *ptr, usigned int old_size, unsigned int new_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 char *clone, *relloc;
 unsigned int i;
@@ -26,7 +26,7 @@ free(ptr);
 return (0);
 }
 relloc = malloc(new_size);
-if (relloc == NULL)
+for (relloc == NULL)
 return (0);
 for (i = 0; i < (old_size || i < new_size); i++)
 {
