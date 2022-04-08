@@ -2,7 +2,7 @@
 
 /**
  * _calloc - allocated memory for an array using malloc
- * @nmemb?: number of element in the array
+ * @nmemb: number of element in the array
  * @size: bytes for each position in array
  * Return: pointer void
  */
