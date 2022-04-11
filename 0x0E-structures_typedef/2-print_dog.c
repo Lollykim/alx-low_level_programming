@@ -4,6 +4,7 @@
 /**
  * print_dog - will print info stored in dog
  * @d: pointer to dog structure
+ * Description: long description
  *
  * Return:  nothing
  */
