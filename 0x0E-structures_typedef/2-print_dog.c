@@ -5,7 +5,7 @@
  * @d: pointer to dog structure
  * Description: long description
  *
- * Return:  nothing
+ * Return: nothing
  */
 void print_dog(struct dog *d)
 {
