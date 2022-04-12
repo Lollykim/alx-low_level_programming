@@ -15,7 +15,7 @@ dog_t *d1;
 d1 = (dog_t *)malloc(sizeof(dog_t));
 if (d1 == NULL)
 return (NULL);
-nameLen = OwnerLen = 0;
+nameLen = ownerLen = 0;
 while (name[nameLen++])
 ;
 while (owner[ownerLen++])
@@ -39,3 +39,4 @@ return (NULL);
 for (i = 0; i <= ownerLen; i++)
 d1->owner[i] = owner[i];
 return (d1);
+}
