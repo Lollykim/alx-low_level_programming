@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "function_pointers.h"
+
 /**
  * int_index - searches for an integer
  * @array: array to seach in
@@ -23,7 +24,7 @@ return (-1);
 for (i = 0; i < size; i++)
 {
 if (((*cmp)(array[i])) == 1)
-return (1);
+return (i);
 }
 return (-1);
 }
