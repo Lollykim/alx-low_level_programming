@@ -13,6 +13,6 @@ size_t i;
 
 if (!array || !action)
 return;
-for (i = 0; 1 < size; i++)
+for (i = 0; i < size; i++)
 (*action)(array[i]);
 }
