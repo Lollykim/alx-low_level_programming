@@ -27,5 +27,5 @@ else
 printf("%d", num);
 }
 va_end(args);
-printf('\n');
+printf("\n");
 }
