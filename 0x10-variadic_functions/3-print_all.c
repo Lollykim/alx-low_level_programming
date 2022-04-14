@@ -21,11 +21,11 @@ while (t_arg[j])
 {
 if (format[i] == t_arg[j] && c)
 {
-	printf(", ");
-	break;
+printf(", ");
+break;
 } j++;
 }
-which (format[i])
+switch (format[i])
 {
 case 'c':
 printf("%c", va_arg(valist, int)), c = 1;
@@ -48,3 +48,4 @@ break;
 } i++;
 }
 printf("\n"), va_end(valist);
+}
