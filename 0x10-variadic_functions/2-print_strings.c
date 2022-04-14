@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_strings - print string followed by a new line
+ * print_strings - prints strings followed by a new line
  * @separatot: string between numbers
  * @n: total number of parameters
  * Return: nothing
@@ -17,7 +17,7 @@ char *str;
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
-str = va_arg(args, char *);
+str = va_arg(args, char*);
 if (str == NULL)
 printf("(nil)");
 else
