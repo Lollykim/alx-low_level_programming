@@ -1,15 +1,11 @@
 #include "lists.h"
-
 /**
- * show_list - executes before the main function
- *
+ * the_hare - function
  * Return: nothing
  */
-void startup(void)
+void the_hare(void) __attribute__ ((constructor));
+void the_hare(void)
 {
-char *str;
-
-str = "You're beat! and yet, you must allow, \nI bore my house upon my back!\n";
-printf("%s", str);
+printf("You're beat! and yet, you must allow,\n");
+printf("I bore my house upon my back!\n");
 }
-
