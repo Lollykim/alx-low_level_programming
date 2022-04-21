@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
-
 /**
  * free_list - function
  * @head: a double pointer to a linked list
