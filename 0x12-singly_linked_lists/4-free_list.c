@@ -18,3 +18,4 @@ free(temp->str);
 free(temp);
 head = head->next; /* goes to next node in life and repeat process*/
 }
+}
